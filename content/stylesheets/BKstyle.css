@@ -240,9 +240,11 @@ nav .chosen-container-single.keyboard-select .chosen-single div b {
 
 
 nav button.os-radiobutton {
-    height: 34px;
+    height: 40px;
+    width: 40px;
     line-height: 1px;
-    padding: 7px 9px 7px 9px;
+    cursor: pointer;
+    border: 0px solid #ccc;
 }
 nav button.os-radiobutton b {
     display: block;
