@@ -150,6 +150,7 @@ header p {
 nav input, nav button,
 nav .chosen-container-single .chosen-single,
 #searchbox input {
+    border: 0px;
     position: relative;
     overflow: hidden;
     padding: 7px 12px;
