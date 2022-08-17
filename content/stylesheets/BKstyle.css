@@ -738,7 +738,8 @@ div#keyboard button.other.hasitems b {
 
 
 div#keyboard button.mod-active {
-    margin-top: 1px;
+    height: 40px;
+    margin-top: 12px;
     margin-bottom: 2px;
 
 }
