@@ -1,0 +1,32 @@
+{
+    "name" : "IronCAD",
+    "version" : "2022#PU1",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "Main UI",
+    "contexts" : {
+        "ActiveShade" : {
+            "D" : [
+                {"name":"Draw Region", "mods":[]}
+            ],
+            "P" : [
+                {"name":"Initialize", "mods":[]}
+            ],
+            "Q" : [
+                {"name":"Close", "mods":[]}
+            ],
+            "R" : [
+                {"name":"Render", "mods":[]}
+            ],
+            "S" : [
+                {"name":"Select Object", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"Toggle Toolbar (Docked)", "mods":[]}
+            ],
+            "U" : [
+                {"name":"Update", "mods":[]}
+            ]
+        },
+    }
+}
