@@ -574,12 +574,12 @@ div#keyboard button.nomod .label {
     text-shadow: 0px 1px 0px rgb(80, 80, 80);
 }
 div#keyboard button.nomod {
-    background: #96A0AD;
+    background: #7e8791;
     box-shadow: inset 0px 0px 0px 1px #5e6d7d,
-                inset 0px 0px 0px 2px #c1cad3,
-                0px 2px 0px 0px #758597,
-                0px 3px 0px 0px #556371,
-                0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+                inset 0px 0px 0px 0px #c1cad3,
+                0px 0px 0px 0px #758597,
+                0px 0px 0px 0px #556371,
+                0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 div#keyboard button.nomod:active {
     box-shadow: inset 0px 0px 0px 1px #5e6d7d,
