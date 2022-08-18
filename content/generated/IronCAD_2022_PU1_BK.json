@@ -1,6 +1,6 @@
 {
     "name" : "IronCAD",
-    "version" : "2022#PU1",
+    "version" : "2022#PU1 B.K Custom",
     "os" : "windows",
     "mods_used" : ["ALT", "CONTROL", "SHIFT"],
     "default_context" : "Main UI",
