@@ -4,7 +4,7 @@
 
 var sitedata_apps = [
     {
-        name: "IronCAD",
+        name: "IronCAD(Scene)",
         data: {
             "2022#PU1 Original": {
                 "mac": "IronCAD_2022_PU1_org.json",
@@ -17,15 +17,15 @@ var sitedata_apps = [
         }
     },
 	{
-        name: "IronCAD Draft",
+        name: "IronCAD(Drawing)",
         data: {
             "2022#PU1 Original": {
                 "mac": "IronCADD_2022_PU1_org.json",
                 "windows": "IronCADD_2022_PU1_org.json",
             },
 			"2022#PU1 B.K Custom": {
-                "mac": "IronCAD_2022_PU1_BK.json",
-                "windows": "IronCAD_2022_PU1_BK.json",
+                "mac": "IronCADD_2022_PU1_BK.json",
+                "windows": "IronCADD_2022_PU1_BK.json",
             },
         }
     },
