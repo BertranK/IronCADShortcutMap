@@ -36,7 +36,7 @@ def main():
         log.setLevel(logging.DEBUG)
 
     # Parse the docs html
-    docs_idata = AdobeDocsParser("IronCAD_2022_PU1_ORG").parse(args.source)
+    docs_idata = AdobeDocsParser("Adobe After Effects").parse(args.source)
     docs_idata.serialize(args.output)
 
 
