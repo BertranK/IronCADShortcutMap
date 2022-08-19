@@ -9,7 +9,7 @@ var sitedata_apps = [
             "2022PU1.ORG": {
                 "windows": "IronCAD_2022PU1.org_windows.json",
             },
-			"2022PU1.B.K": {
+			"2022PU1.BK": {
                 "windows": "IronCAD_2022PU1.BK_windows.json",
             },
         }
@@ -20,7 +20,7 @@ var sitedata_apps = [
             "2022PU1.ORG": {
                 "windows": "IronCADd_2022PU1.org_windows.json",
             },
-			"2022PU11B.K": {
+			"2022PU1.BK": {
                 "windows": "IronCADd_2022PU1.BK_windows.json",
             },
         }
