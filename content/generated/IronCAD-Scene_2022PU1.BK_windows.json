@@ -1,6 +1,6 @@
 {
     "name" : "IronCAD-Scene",
-    "version" : "2022PU1BK",
+    "version" : "2022PU1.BK",
     "os" : "windows",
     "mods_used" : ["ALT", "CONTROL", "SHIFT"],
     "default_context" : "Main UI",
