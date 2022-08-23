@@ -10,7 +10,7 @@
                 {"name":"Add Menu", "mods":["SHIFT"]},
                 {"name":"Make Duplicates Real", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Object Apply Menu", "mods":["CONTROL"]},
-                {"name":"Toggle Select Alltest", "mods":[]}
+                {"name":"Toggle Select All", "mods":[]}
             ],
             "ACCENT_GRAVE" : [
                 {"name":"Toggle All Layers", "mods":[]}
