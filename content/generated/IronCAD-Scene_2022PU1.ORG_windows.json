@@ -1,19 +1,17 @@
 {
-    "name" : "IronCAD-Scene",
+    "name" : "IronCAD",
     "version" : "2022PU1.ORG",
     "os" : "windows",
     "mods_used" : ["ALT", "CONTROL", "SHIFT"],
-    "default_context" : "UI Function Keys",
+    "default_context" : "Scene",
     "contexts" : {
-        "UI Function Keys" : {
+        "Scene" : {
 			"F9" : [
                 {"name":"Toggle between Fluent Ribbon UI and Toolbar UI", "mods":["CONTROL", "SHIFT"]}
             ],
             "R" : [
                 {"name":"Toggle Fluent Ribbon Bar On/Off", "mods":["CONTROL", "SHIFT"]}
-            ]
-		},
-        "File/Edit Function Keys" : {
+            ],
 			"N" : [
                 {"name":"New Scene Using Default Template", "mods":[]},
                 {"name":"New", "mods":["CONTROL"]},
@@ -84,15 +82,48 @@
                 {"name":"Direct select of multiple features in a scene", "mods":["ALT", "SHIFT"]}
             ],
             "ACCENT_GRAVE" : [
-                {"name":"ASDFSDFSDFSDF", "mods":[]}
+                {"name":"+Left-Click : Select the lowest visible assembly", "mods":[]}
             ]
 		},
-        "Camera Function Keys/Buttons Assignment" : {
-			"F9" : [
-                {"name":"Toggle between Fluent Ribbon UI and Toolbar UI", "mods":["CONTROL", "SHIFT"]}
+		"Scene: Camera Function Keys/Buttons Assignment" : {
+			"F2" : [
+                {"name":"Pan", "mods":[]},
+                {"name":"Walk", "mods":["SHIFT"]}
             ],
-            "R" : [
-                {"name":"Toggle Fluent Ribbon Bar On/Off", "mods":["CONTROL", "SHIFT"]}
+			"F3" : [
+                {"name":"Orbit", "mods":[]}
+            ],
+			"F4" : [
+                {"name":"Dolly", "mods":[]}
+            ],
+			"F5" : [
+                {"name":"Zoom", "mods":[]},
+                {"name":"Window zoom", "mods":["CONTROL"]}
+            ],
+			"F7" : [
+                {"name":"Look At", "mods":[]},
+                {"name":"Target", "mods":["CONTROL"]}
+            ],
+			"W" : [
+                {"name":"Look At", "mods":[]},
+                {"name":"Window zoom", "mods":["SHIFT"]}
+            ],
+			"F8" : [
+                {"name":"Fit Scene", "mods":[]},
+                {"name":"Activate the internal software renderer (Only active is all documents are closed)", "mods":["CONTROL"]}
+            ],
+			"D" : [
+                {"name":"Fit Scene", "mods":[]}
+            ],
+			"F9" : [
+                {"name":"Perspective", "mods":[]},
+                {"name":"Activate OpenGL rendering (Only active is all documents are closed)", "mods":["CONTROL"]}
+            ],
+			"F10" : [
+                {"name":"Activate Hoops3D rendering (Only active is all documents are closed)", "mods":["CONTROL"]}
+            ],
+			"Z" : [
+                {"name":"Zoom to Selection", "mods":["SHIFT"]}
             ]			
         }
     }
