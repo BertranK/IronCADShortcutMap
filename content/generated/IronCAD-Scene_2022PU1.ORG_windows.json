@@ -12,9 +12,7 @@
             "R" : [
                 {"name":"Toggle Fluent Ribbon Bar On/Off", "mods":["CONTROL", "SHIFT"]}
             ]
-		}
-	},
-    "contexts" : {
+		},
         "File/Edit Function Keys" : {
 			"N" : [
                 {"name":"New Scene Using Default Template", "mods":[]}
@@ -36,9 +34,7 @@
             "F1" : [
                 {"name":"Context Help", "mods":["SHIFT"]}
             ],
-		}
-	},
-    "contexts" : {
+		},
         "Camera Function Keys/Buttons Assignment" : {
 			"F9" : [
                 {"name":"Toggle between Fluent Ribbon UI and Toolbar UI", "mods":["CONTROL", "SHIFT"]}
