@@ -12,11 +12,11 @@
             "R" : [
                 {"name":"Toggle Fluent Ribbon Bar On/Off", "mods":["CONTROL", "SHIFT"]}
             ]
-	},
+		},
         "File/Edit Function Keys" : {
 			"N" : [
-                {"name":"New Scene Using Default Template", "mods":[]}
-                {"name":"New", "mods":["CONTROL"]}			
+                {"name":"New Scene Using Default Template", "mods":[]},
+                {"name":"New", "mods":["CONTROL"]},
                 {"name":"New Drawing Using Default Template", "mods":["SHIFT"]}
             ],
             "O" : [
@@ -32,9 +32,40 @@
                 {"name":"Print", "mods":["CONTROL"]}
             ],	
             "F1" : [
-                {"name":"Context Help", "mods":["SHIFT"]}
-            ]
-	},
+                {"name":"Context Help", "mods":["SHIFT"]},
+				{"name":"Help", "mods":[]}
+            ]	
+            "Z" : [
+                {"name":"Undo", "mods":["CONTROL"]}
+            ],	
+            "BACKSPACE" : [
+                {"name":"Undo", "mods":["ALT"]}
+            ],	
+            "Y" : [
+                {"name":"Redo", "mods":["CONTROL"]}
+            ],	
+            "X" : [
+                {"name":"Cut", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_PERIOD" : [
+                {"name":"Cut", "mods":["SHIFT"]}
+            ],	
+            "C" : [
+                {"name":"Copy", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_PERIOD" : [
+                {"name":"Copy", "mods":["SHIFT"]}
+            ],	
+            "V" : [
+                {"name":"Paste", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ZERO" : [
+                {"name":"Paste", "mods":["SHIFT"]}
+            ],
+            "a" : [
+                {"name":"Select All", "mods":["CONTROL"]}
+            ],
+		},
         "Camera Function Keys/Buttons Assignment" : {
 			"F9" : [
                 {"name":"Toggle between Fluent Ribbon UI and Toolbar UI", "mods":["CONTROL", "SHIFT"]}
