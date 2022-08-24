@@ -3,30 +3,45 @@
     "version" : "2022PU1.ORG",
     "os" : "windows",
     "mods_used" : ["ALT", "CONTROL", "SHIFT"],
-    "default_context" : "Main UI",
+    "default_context" : "UI Function Keys",
     "contexts" : {
-        "ActiveShade" : {
-            "D" : [
-                {"name":"Draw Region", "mods":[]}
-            ],
-            "P" : [
-                {"name":"Initialize", "mods":[]}
-            ],
-            "Q" : [
-                {"name":"Close", "mods":[]}
+        "UI Function Keys" : {
+			"F9" : [
+                {"name":"Toggle between Fluent Ribbon UI and Toolbar UI", "mods":["CONTROL", "SHIFT"]}
             ],
             "R" : [
-                {"name":"Render", "mods":[]}
+                {"name":"Toggle Fluent Ribbon Bar On/Off", "mods":["CONTROL", "SHIFT"]}
+            ],
+    "contexts" : {
+        "File/Edit Function Keys" : {
+			"N" : [
+                {"name":"New Scene Using Default Template", "mods":[]}
+                {"name":"New", "mods":["CONTROL"]}			
+                {"name":"New Drawing Using Default Template", "mods":["SHIFT"]}
+            ],
+            "O" : [
+                {"name":"Open", "mods":["CONTROL"]}
             ],
             "S" : [
-                {"name":"Select Object", "mods":[]}
+                {"name":"Save", "mods":["CONTROL"]}
             ],
-            "SPACE" : [
-                {"name":"Toggle Toolbar (Docked)", "mods":[]}
+            "W" : [
+                {"name":"Close", "mods":["CONTROL"]}
+            ],	
+            "P" : [
+                {"name":"Print", "mods":["CONTROL"]}
+            ],	
+            "F1" : [
+                {"name":"Close", "mods":["CONTROL"]}
+            ],		
+    "contexts" : {
+        "Camera Function Keys/Buttons Assignment" : {
+			"F9" : [
+                {"name":"Toggle between Fluent Ribbon UI and Toolbar UI", "mods":["CONTROL", "SHIFT"]}
             ],
-            "U" : [
-                {"name":"Update", "mods":[]}
-            ]
+            "R" : [
+                {"name":"Toggle Fluent Ribbon Bar On/Off", "mods":["CONTROL", "SHIFT"]}
+            ],			
         }
     }
 }
