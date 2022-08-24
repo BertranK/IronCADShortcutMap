@@ -34,7 +34,7 @@
             "F1" : [
                 {"name":"Context Help", "mods":["SHIFT"]},
 				{"name":"Help", "mods":[]}
-            ]	
+            ],	
             "Z" : [
                 {"name":"Undo", "mods":["CONTROL"]}
             ],	
@@ -62,8 +62,26 @@
             "NUMPAD_ZERO" : [
                 {"name":"Paste", "mods":["SHIFT"]}
             ],
-            "a" : [
+            "A" : [
                 {"name":"Select All", "mods":["CONTROL"]}
+            ],
+            "DELETE" : [
+                {"name":"Delete", "mods":[""]}
+            ],
+            "Select" : [
+                {"name":"Multiple selection", "mods":["SHIFT"]}
+            ],
+            "Left-Click" : [
+                {"name":"Direct select of parts in a scene", "mods":["CONTROL"]}
+            ],
+            "Left-Click" : [
+                {"name":"Direct select of multiple parts in a scene", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "Left-Click" : [
+                {"name":"Direct select of features in a scene", "mods":["ALT"]}
+            ],
+            "Left-Click" : [
+                {"name":"Direct select of multiple features in a scene", "mods":["ALT", "SHIFT"]}
             ],
 		},
         "Camera Function Keys/Buttons Assignment" : {
