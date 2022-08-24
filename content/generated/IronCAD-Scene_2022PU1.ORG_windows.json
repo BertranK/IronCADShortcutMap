@@ -83,6 +83,9 @@
             "Left-Click" : [
                 {"name":"Direct select of multiple features in a scene", "mods":["ALT", "SHIFT"]}
             ],
+            "ACCENT_GRAVE" : [
+                {"name":"ASDFSDFSDFSDF", "mods":[]}
+            ]
 		},
         "Camera Function Keys/Buttons Assignment" : {
 			"F9" : [
