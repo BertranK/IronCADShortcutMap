@@ -12,6 +12,7 @@
             "R" : [
                 {"name":"Toggle Fluent Ribbon Bar On/Off", "mods":["CONTROL", "SHIFT"]}
             ]
+		},
     "contexts" : {
         "File/Edit Function Keys" : {
 			"N" : [
@@ -32,8 +33,9 @@
                 {"name":"Print", "mods":["CONTROL"]}
             ],	
             "F1" : [
-                {"name":"Close", "mods":["CONTROL"]}
+                {"name":"Context Help", "mods":["SHIFT"]}
             ]		
+		},
     "contexts" : {
         "Camera Function Keys/Buttons Assignment" : {
 			"F9" : [
