@@ -83,6 +83,9 @@
             ],
             "ACCENT_GRAVE" : [
                 {"name":"+Left-Click : Select the lowest visible assembly", "mods":[]}
+            ],
+            "R" : [
+                {"name":"Immediate activation of realistic rendering", "mods":["CONTROL"]}
             ]
 		},
 		"Scene: Camera Function Keys/Buttons Assignment" : {
@@ -124,7 +127,93 @@
             ],
 			"Z" : [
                 {"name":"Zoom to Selection", "mods":["SHIFT"]}
-            ]			
-        }
+            ],
+			"ESC" : [
+                {"name":"Deselect All when option is checked", "mods":[]}
+            ],
+			"TAP" : [
+                {"name":"Toggle Inscribed and Circumscribed Circle Polygon", "mods":[]}
+            ],
+			"S" : [
+                {"name":"Quick Access Command Toolbar for common commands", "mods":[]}
+            ],			
+        },
+		"Scene: With Orbit Camera Toolbar Button Selected" : {#Divide it later
+			"ALT" : [
+                {"name":"TEST", "mods":["ALT"]},
+                {"name":"SHIFT", "mods":["SHIFT"]}
+            ]
+		}, #PASS UNTILL "With Walk Camera Toolbar Button Selected"
+		"Scene: TriBall Function Keys" : { #Divide it later
+			"F10" : [
+                {"name":"Toggles TriBall on/off for shape/part", "mods":[]}
+            ],
+			"Q" : [
+                {"name":"Toggles TriBall on/off for shape/part", "mods":[]}
+            ],
+			"SPACE" : [
+                {"name":"Toggle between TriBall Only and moving the shape and part With TriBall Secelted", "mods":[]}
+            ],
+			"P" : [
+                {"name":"Place point for selected curve type when TriBall is Active", "mods":[]}
+            ]
+		},
+		"Scene: Camera Picker" : {
+			"F" : [
+                {"name":"Front", "mods":[]}
+            ],
+			"T" : [
+                {"name":"Top", "mods":[]}
+            ],
+			"R" : [
+                {"name":"Right", "mods":[]}
+            ],
+			"L" : [
+                {"name":"Left", "mods":[]}
+            ],
+			"I" : [
+                {"name":"Top-Front-Right", "mods":[]}
+            ]
+		},
+		"Scene: Coordinate System Keys" : {
+			"A" : [
+                {"name":"Show All Planes", "mods":[]}
+            ],
+			"X" : [
+                {"name":"Show/Hide YZ Plane", "mods":[]}
+            ],
+			"Y" : [
+                {"name":"Show/Hide XZ Plane", "mods":[]}
+            ],
+			"Z" : [
+                {"name":"Show/Hide XY Plane", "mods":[]}
+            ],
+			"X" : [
+                {"name":"Set/Cancel YZ Current Plane", "mods":["ALT"]}
+            ],
+			"Y" : [
+                {"name":"Set/Cancel XZ Current Plane", "mods":["ALT"]}
+            ],
+			"Z" : [
+                {"name":"Set/Cancel XY Current Plane", "mods":["ALT"]}
+            ]
+		},
+		"2D Drawing(ICD)" : {
+			"B" : [
+                {"name":"Switch selected view to Draft/Precise Quality", "mods":["CONTROL", "SHIFT"]}
+            ],
+			"L" : [
+                {"name":"Accesses Links dialog box", "mods":["CONTROL", "SHIFT"]}
+            ],
+			"F" : [
+                {"name":"Flip Inside/Outside Arrows on SmartDimension", "mods":["CONTROL"]}
+            ],
+			"TAB" : [
+                {"name":"Toggle between parallel/horizontal/vertical on SmartDimension", "mods":[]}
+            ],
+			"SPACE" : [
+                {"name":"Enable Snap To options (ex. Snap to Quadrant) on SmartDimension", "mods":[]}
+            ]
+		}
     }
 }
