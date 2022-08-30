@@ -189,6 +189,47 @@
             "TAB" : [
                 {"name":"Toggle between scene and drawing environments", "mods":["CONTROL"]}
             ],
+            "K" : [
+                {"name":"Toggle between Parasolid and ACIS modeling kernels", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"Toggle between scene and drawing environments", "mods":["CONTROL"]}
+            ],
+            "E" : [
+                {"name":"Show Hidden Edges, Hide All Edges, Show Visible Edges on a selected assembly/part.", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
+            ],
+            "A" : [
+                {"name":"Set as active", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "E" : [
+                {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
+            ],
+            "S" : [
+                {"name":"Quick Access Command Toolbar for common commands on current selection level", "mods":[]}
+            ],
+            "B" : [
+                {"name":"Find in Scene Browser", "mods":["CONTROL"]}
+            ],
+            "A" : [
+                {"name":"Advanced Selector", "mods":["ALT"]}
+            ],
+            "ENTER" : [
+                {"name":"Repeat Command", "mods":["ALT"]}
+            ],
+            "G" : [
+                {"name":"Ghost", "mods":[]},
+				{"name":"UnGhost", "mods":["SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Hide Selected", "mods":[]},
+				{"name":"Show All", "mods":["SHIFT"]}
+            ],
+            "M" : [
+                {"name":"Measurement", "mods":[]}
+            ]
 		},
 		"2D Drawing(ICD)" : {
 			"B" : [
@@ -315,6 +356,49 @@
             ],
 			"Z" : [
                 {"name":"Set/Cancel XY Current Plane", "mods":["ALT"]}
+            ]
+		},
+		"Scene: Miscellaneous Function Keys" : {
+            "K" : [
+                {"name":"Toggle between Parasolid and ACIS modeling kernels", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"Toggle between scene and drawing environments", "mods":["CONTROL"]}
+            ],
+            "E" : [
+                {"name":"Show Hidden Edges, Hide All Edges, Show Visible Edges on a selected assembly/part.", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
+            ],
+            "A" : [
+                {"name":"Set as active", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "E" : [
+                {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
+            ],
+            "S" : [
+                {"name":"Quick Access Command Toolbar for common commands on current selection level", "mods":[]}
+            ],
+            "B" : [
+                {"name":"Find in Scene Browser", "mods":["CONTROL"]}
+            ],
+            "A" : [
+                {"name":"Advanced Selector", "mods":["ALT"]}
+            ],
+            "ENTER" : [
+                {"name":"Repeat Command", "mods":["ALT"]}
+            ],
+            "G" : [
+                {"name":"Ghost", "mods":[]},
+				{"name":"UnGhost", "mods":["SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Hide Selected", "mods":[]},
+				{"name":"Show All", "mods":["SHIFT"]}
+            ],
+            "M" : [
+                {"name":"Measurement", "mods":[]}
             ]
 		}
     }
