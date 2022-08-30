@@ -142,15 +142,16 @@
             ],
 			"S" : [
                 {"name":"Quick Access Command Toolbar for common commands", "mods":[]}
-            ],			
+            ],
         },
-		"Scene: With Orbit Camera Toolbar Button Selected" : {#Divide it later
+		#Divide it later
+		"Scene: With Orbit Camera Toolbar Button Selected" : {
 			"ALT" : [
                 {"name":"TEST", "mods":["ALT"]},
                 {"name":"SHIFT", "mods":["SHIFT"]}
             ]
-		}, #PASS UNTILL "With Walk Camera Toolbar Button Selected"
-		"Scene: TriBall Function Keys" : { #Divide it later
+		},
+		"Scene: TriBall Function Keys" : {
 			"F10" : [
                 {"name":"Toggles TriBall on/off for shape/part", "mods":[]}
             ],
@@ -164,6 +165,7 @@
                 {"name":"Place point for selected curve type when TriBall is Active", "mods":[]}
             ]
 		},
+		#Divide it later
 		"Scene: Camera Picker" : {
 			"F" : [
                 {"name":"Front", "mods":[]}
