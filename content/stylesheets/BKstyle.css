@@ -106,7 +106,7 @@ header p {
 
 #contentwrap {
     position: relative;
-    width: 1280px;
+    width: 1800px;
     margin: 1px auto 0 auto;
 }
 
@@ -452,7 +452,7 @@ div#keyboard button,
 div#keyboard div.spacer-key {
     float: left;
     height: 52px;
-    width: 52px;
+    width: 78px;
     margin: 0 3px 7px 0;
 }
 
