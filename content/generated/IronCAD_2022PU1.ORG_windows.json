@@ -184,19 +184,13 @@
                 {"name":"Immediate activation of realistic rendering", "mods":["CONTROL"]}
             ],
             "K" : [
-                {"name":"Toggle between Parasolid and ACIS modeling kernels", "mods":["CONTROL"]}
+                {"name":"Toggle BTW Parasolid and ACIS kernels", "mods":["CONTROL"]}
             ],
             "TAB" : [
-                {"name":"Toggle between scene and drawing environments", "mods":["CONTROL"]}
-            ],
-            "K" : [
-                {"name":"Toggle between Parasolid and ACIS modeling kernels", "mods":["CONTROL"]}
-            ],
-            "TAB" : [
-                {"name":"Toggle between scene and drawing environments", "mods":["CONTROL"]}
+                {"name":"Toggle BTW scene and drawing environments", "mods":["CONTROL"]}
             ],
             "E" : [
-                {"name":"Show Hidden Edges, Hide All Edges, Show Visible Edges on a selected assembly/part.", "mods":["CONTROL"]}
+                {"name":"Show Hidden Edges, Hide All Edges, Show Visible Edges on a selected assembly/part", "mods":["CONTROL"]}
             ],
             "TAB" : [
                 {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
