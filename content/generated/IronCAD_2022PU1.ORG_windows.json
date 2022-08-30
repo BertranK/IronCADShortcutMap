@@ -121,7 +121,7 @@
                 {"name":"Activate Hoops3D rendering (Only active is all documents are closed)", "mods":["CONTROL"]}
             ],
 			"Z" : [
-                {"name":"Zoom to Selection", "mods":["SHIFT"]}
+                {"name":"Fit Scene to Selection", "mods":["SHIFT"]}
             ],
 			"ESC" : [
                 {"name":"Deselect All when option is checked", "mods":[]}
