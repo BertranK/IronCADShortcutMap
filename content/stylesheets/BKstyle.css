@@ -116,7 +116,7 @@ header p {
 }
 
 #keycontent {
-    height: 372px;
+    height: 430px;
 }
 
 #othercontent {
@@ -451,7 +451,7 @@ div#keyboard div.col {
 div#keyboard button,
 div#keyboard div.spacer-key {
     float: left;
-    height: 52px;
+    height: 62px;
     width: 78px;
     margin: 0 3px 7px 0;
 }
@@ -568,7 +568,7 @@ div#keyboard button .shortcut {
     left: -1px;
     font-family: 'Lato', sans-serif;
     width: 90%;
-    max-height: 36px;
+    max-height: 42px;
     padding: 0 3px 0 3px;
     font-size: 9px;
     font-weight: 300;
@@ -751,8 +751,8 @@ div#keyboard button.other.hasitems b {
 
 
 div#keyboard button.mod-active {
-    height: 40px;
-    margin-top: 12px;
+    height: 43px;
+    margin-top: 20px;
     margin-bottom: 2px;
 
 }
