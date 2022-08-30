@@ -142,7 +142,7 @@
             ],
 			"S" : [
                 {"name":"Quick Access Command Toolbar for common commands", "mods":[]}
-            ],
+            ]
         },
 		#Divide it later
 		"Scene: With Orbit Camera Toolbar Button Selected" : {
