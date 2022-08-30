@@ -86,7 +86,13 @@
             ],
             "R" : [
                 {"name":"Immediate activation of realistic rendering", "mods":["CONTROL"]}
-            ]
+            ],
+            "K" : [
+                {"name":"Toggle between Parasolid and ACIS modeling kernels", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"Toggle between scene and drawing environments", "mods":["CONTROL"]}
+            ],
 		},
 		"Scene: Camera Function Keys/Buttons Assignment" : {
 			"F2" : [
@@ -131,7 +137,7 @@
 			"ESC" : [
                 {"name":"Deselect All when option is checked", "mods":[]}
             ],
-			"TAP" : [
+			"TAB" : [
                 {"name":"Toggle Inscribed and Circumscribed Circle Polygon", "mods":[]}
             ],
 			"S" : [
