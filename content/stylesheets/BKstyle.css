@@ -134,7 +134,7 @@ header p {
 
 #search {
     position: absolute;
-    left: 365px; /* = (contentwrap.width-550)/2; */
+    left: 625px; /* = (contentwrap.width-550)/2; */
     width: 550px;
 }
 
@@ -541,7 +541,19 @@ div#keyboard button .label {
     top: 0;
     left: 0;
     width: 48px;
-    padding: 2px 0 0 4px;
+    padding: 0px 0 0 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6b6b6b;
+    text-align: left;
+    text-shadow: 0px -1px 0px rgb(255,255,255);
+}
+div#keyboard button .label .Numpad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    padding: 0px 0 0 4px;
     font-size: 12px;
     font-weight: 400;
     color: #6b6b6b;
@@ -556,7 +568,7 @@ div#keyboard button .shortcut {
     left: -1px;
     font-family: 'Lato', sans-serif;
     width: 90%;
-    max-height: 32px;
+    max-height: 36px;
     padding: 0 3px 0 3px;
     font-size: 9px;
     font-weight: 300;
