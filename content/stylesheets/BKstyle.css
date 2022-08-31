@@ -498,6 +498,10 @@ div#keyboard button {
     opacity: 0.4;
 }
 
+div#keyboard button.Numpad {
+    width: 50px;
+}
+
 div#keyboard button.hasitems,
 div#keyboard button.mod-alt,
 div#keyboard button.mod-control,
