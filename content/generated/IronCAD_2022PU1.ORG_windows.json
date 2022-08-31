@@ -108,7 +108,7 @@
             ],
 			"F8" : [
                 {"name":"Fit Scene", "mods":[]},
-                {"name":"Activate the internal software renderer)", "mods":["CONTROL"]}
+                {"name":"Activate the internal software renderer", "mods":["CONTROL"]}
             ],
 			"D" : [
                 {"name":"Fit Scene", "mods":[]}
