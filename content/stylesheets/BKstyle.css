@@ -50,6 +50,10 @@ header p {
     margin: 0;
 }
 
+header a {
+    color: darkgray;
+}
+
 /* CONTRIBUTE */
 
 #banners {
@@ -236,7 +240,7 @@ background-color:#f4f6f8;
 
 #keyinfo {
     position: absolute;
-    left: 0;
+    left: 340px;
     width: 365px;
     height: 200px;
 }
@@ -249,7 +253,7 @@ background-color:#f4f6f8;
 
 #mousecontent {
     position: absolute;
-    right: 0;
+    right: 640px;
     width: 365px;
     height: 250px;
 }
