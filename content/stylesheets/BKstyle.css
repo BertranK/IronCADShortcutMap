@@ -106,7 +106,7 @@ header p {
 
 #contentwrap {
     position: relative;
-    width: 1800px;
+    width: 1768px;
     margin: 1px auto 0 auto;
 }
 
@@ -576,11 +576,11 @@ div#keyboard button .shortcut {
     left: -1px;
     font-family: 'Lato', sans-serif;
     width: 90%;
-    max-height: 42px;
+    max-height: 46px;
     padding: 0 3px 0 3px;
-    font-size: 9px;
-    font-weight: 300;
-    line-height: 8px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 10px;
     color: #ffffff;
     text-shadow: 0px 1px 0px rgba(0,0,0,0.36);
     text-align: center;
