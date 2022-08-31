@@ -104,9 +104,12 @@ header p {
 
 
 /** Content layout ***********************************/
+/**
 * {
   box-sizing: border-box;
 }
+**/
+/**
 body {
   display:flex;
   
@@ -117,8 +120,9 @@ body {
   
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  background-color:#f4f6f8;
+background-color:#f4f6f8;
 }
+**/
 .container{
   display:flex;
   
@@ -679,7 +683,7 @@ div#keyboard button .shortcut {
     position: absolute;
     bottom: 4px;
     left: -1px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 90%;
     max-height: 46px;
     padding: 0 3px 0 3px;
