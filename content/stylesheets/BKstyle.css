@@ -452,7 +452,7 @@ div#keyboard button,
 div#keyboard div.spacer-key {
     float: left;
     height: 62px;
-    width: 78px;
+    width: 88px;
     margin: 0 3px 7px 0;
 }
 
@@ -473,6 +473,10 @@ div#keyboard button {
 
 div#keyboard div.spacer-key {
     display: block;
+}
+
+div#keyboard div.spacer-key.Numpad {
+    width: 60px;
 }
 
 div#keyboard div.spacer-small {
@@ -499,7 +503,7 @@ div#keyboard button {
 }
 
 div#keyboard button.Numpad {
-    width: 50px;
+    width: 60px;
 }
 
 div#keyboard button.hasitems,
