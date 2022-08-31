@@ -82,7 +82,7 @@
                 {"name":"Direct select of multiple features in a scene", "mods":["ALT", "SHIFT"]}
             ],
             "ACCENT_GRAVE" : [
-                {"name":"+Left-Click : Select the lowest visible assembly", "mods":[]}
+                {"name":"[Click] Select the lowest visible assembly", "mods":[]}
             ],
 			"F2" : [
                 {"name":"Pan", "mods":[]},
@@ -108,17 +108,17 @@
             ],
 			"F8" : [
                 {"name":"Fit Scene", "mods":[]},
-                {"name":"Activate the internal software renderer (Only active is all documents are closed)", "mods":["CONTROL"]}
+                {"name":"Activate the internal software renderer)", "mods":["CONTROL"]}
             ],
 			"D" : [
                 {"name":"Fit Scene", "mods":[]}
             ],
 			"F9" : [
                 {"name":"Perspective", "mods":[]},
-                {"name":"Activate OpenGL rendering (Only active is all documents are closed)", "mods":["CONTROL"]}
+                {"name":"Activate OpenGL rendering", "mods":["CONTROL"]}
             ],
 			"F10" : [
-                {"name":"Activate Hoops3D rendering (Only active is all documents are closed)", "mods":["CONTROL"]}
+                {"name":"Activate Hoops3D rendering", "mods":["CONTROL"]}
             ],
 			"Z" : [
                 {"name":"Fit Scene to Selection", "mods":["SHIFT"]}
@@ -126,11 +126,8 @@
 			"ESC" : [
                 {"name":"Deselect All when option is checked", "mods":[]}
             ],
-			"TAB" : [
-                {"name":"Toggle Inscribed and Circumscribed Circle Polygon", "mods":[]}
-            ],
 			"S" : [
-                {"name":"Quick Access Command Toolbar for common commands", "mods":[]}
+                {"name":"Quick Access Command Toolbar", "mods":[]}
             ],
 			"F10" : [
                 {"name":"Toggles TriBall on/off for shape/part", "mods":[]}
@@ -190,7 +187,7 @@
                 {"name":"Toggle BTW scene and drawing environments", "mods":["CONTROL"]}
             ],
             "E" : [
-                {"name":"Show Hidden Edges, Hide All Edges, Show Visible Edges on a selected assembly/part", "mods":["CONTROL"]}
+                {"name":"Toggle Hidden Edges-Hide All Edges-Show Edges", "mods":["CONTROL"]}
             ],
             "TAB" : [
                 {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
@@ -202,7 +199,7 @@
                 {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
             ],
             "S" : [
-                {"name":"Quick Access Command Toolbar for common commands on current selection level", "mods":[]}
+                {"name":"Quick Access Command Toolbar", "mods":[]}
             ],
             "B" : [
                 {"name":"Find in Scene Browser", "mods":["CONTROL"]}
@@ -267,17 +264,17 @@
             ],
 			"F8" : [
                 {"name":"Fit Scene", "mods":[]},
-                {"name":"Activate the internal software renderer (Only active is all documents are closed)", "mods":["CONTROL"]}
+                {"name":"Activate the internal software renderer", "mods":["CONTROL"]}
             ],
 			"D" : [
                 {"name":"Fit Scene", "mods":[]}
             ],
 			"F9" : [
                 {"name":"Perspective", "mods":[]},
-                {"name":"Activate OpenGL rendering (Only active is all documents are closed)", "mods":["CONTROL"]}
+                {"name":"Activate OpenGL rendering", "mods":["CONTROL"]}
             ],
 			"F10" : [
-                {"name":"Activate Hoops3D rendering (Only active is all documents are closed)", "mods":["CONTROL"]}
+                {"name":"Activate Hoops3D rendering", "mods":["CONTROL"]}
             ],
 			"Z" : [
                 {"name":"Zoom to Selection", "mods":["SHIFT"]}
@@ -285,11 +282,8 @@
 			"ESC" : [
                 {"name":"Deselect All when option is checked", "mods":[]}
             ],
-			"TAB" : [
-                {"name":"Toggle Inscribed and Circumscribed Circle Polygon", "mods":[]}
-            ],
 			"S" : [
-                {"name":"Quick Access Command Toolbar for common commands", "mods":[]}
+                {"name":"Quick Access Command Toolbar", "mods":[]}
             ]
         },
 		"Scene: With Orbit Camera Toolbar Button Selected" : {
@@ -360,7 +354,7 @@
                 {"name":"Toggle between scene and drawing environments", "mods":["CONTROL"]}
             ],
             "E" : [
-                {"name":"Show Hidden Edges, Hide All Edges, Show Visible Edges on a selected assembly/part.", "mods":["CONTROL"]}
+                {"name":"Toggle Hidden Edges-Hide All Edges-Show Edges", "mods":["CONTROL"]}
             ],
             "TAB" : [
                 {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
@@ -372,7 +366,7 @@
                 {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
             ],
             "S" : [
-                {"name":"Quick Access Command Toolbar for common commands on current selection level", "mods":[]}
+                {"name":"Quick Access Command Toolbar", "mods":[]}
             ],
             "B" : [
                 {"name":"Find in Scene Browser", "mods":["CONTROL"]}
