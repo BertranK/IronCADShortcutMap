@@ -1031,6 +1031,42 @@ div#keyboard button.mod-other.mod-active {
 	float:left;
 }
 
+/*** Image hover effect round to square test ***/
+
+.circle-to-square__container {
+  width: 100%;
+  height: 256px;
+  display: flex;
+  justify-content: center;
+  &:hover {
+    .circle-to-square {
+      width: 300px;
+      border-radius: 50%;
+    }
+    .circle {
+      display: none;
+    }
+    .square {
+      display: initial;
+    }
+  }
+}
+.circle-to-square {
+  font-family:  'Montserrat', sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  border: 8px solid red;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease all;
+  .square {
+    display: none;
+  }
+}
+
 /*** Image hover effect round to square ***/
 
 .img-round-square {margin-left:33%;margin-right:33%;width:33%;height:256px;-moz-border-radius:50%;-webkit-border-radius:100%;-o-border-radius:50%;border-radius:50%}
