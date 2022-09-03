@@ -68,7 +68,7 @@
 				{"name":"Toggle between Fluent Ribbon UI and Toolbar UI", "mods":["CONTROL", "SHIFT"]}
             ],
 			"F10" : [
-                {"name":"Toggles TriBall on/off for shape/part", "mods":[]}
+                {"name":"Toggles TriBall on/off for shape/part", "mods":[]},
                 {"name":"Activate Hoops3D rendering", "mods":["CONTROL"]}
             ],
             "ACCENT_GRAVE" : [
@@ -182,7 +182,7 @@
                 {"name":"Measurement", "mods":[]}
             ],
 			"SHIFT" : [
-                {"name":"+ [D] Direct select of parts in a scene", "mods":[]},
+                {"name":"+ [D] Direct select of parts in a scene", "mods":[]}
             ],
 			"CONTROL" : [
                 {"name":"+ [C] Direct select of parts in a scene", "mods":[]},
