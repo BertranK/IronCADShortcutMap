@@ -10,28 +10,28 @@
                 {"name":"After pressing ALT, use a first tool at Quick Access Toolbar", "mods":[]}
             ],
 			"TWO" : [
-                {"name":"After pressing ALT, use a second tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a second tool at Quick Access Toolbar", "mods":[]}
             ],
 			"THREE" : [
-                {"name":"After pressing ALT, use a third tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a third tool at Quick Access Toolbar", "mods":[]}
             ],
 			"FOUR" : [
-                {"name":"After pressing ALT, use a fourth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a fourth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"FIVE" : [
-                {"name":"After pressing ALT, use a fifth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a fifth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"SIX" : [
-                {"name":"After pressing ALT, use a sixth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a sixth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"SEVEN" : [
-                {"name":"After pressing ALT, use a seventh tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a seventh tool at Quick Access Toolbar", "mods":[]}
             ],
 			"EIGHT" : [
-                {"name":"After pressing ALT, use a eighth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a eighth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"NINE" : [
-                {"name":"After pressing ALT, use a nineth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" use a nineth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"ESC" : [
                 {"name":"Deselect All when option is checked", "mods":[]}
@@ -233,22 +233,22 @@
                 {"name":"0 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
             ],
 			"ONE" : [
-                {"name":"0.0 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+                {"name":"0.0 \"", "mods":["CONTROL"]}
             ],
 			"TWO" : [
-                {"name":"0.00 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+                {"name":"0.00 \"", "mods":["CONTROL"]}
             ],
 			"THREE" : [
-                {"name":"0.000 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+                {"name":"0.000 \"", "mods":["CONTROL"]}
             ],
 			"FOUR" : [
-                {"name":"0.0000 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+                {"name":"0.0000 \"", "mods":["CONTROL"]}
             ],
 			"FIVE" : [
-                {"name":"0.00000 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+                {"name":"0.00000 \"", "mods":["CONTROL"]}
             ],
 			"SIX" : [
-                {"name":"0.000000 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+                {"name":"0.000000 \"", "mods":["CONTROL"]}
             ],
 			"TAB" : [
                 {"name":"Toggle between parallel/horizontal/vertical on SmartDimension", "mods":[]}
