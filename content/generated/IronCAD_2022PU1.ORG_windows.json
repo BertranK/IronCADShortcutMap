@@ -7,31 +7,31 @@
     "contexts" : {
         "Scene" : {
 			"ONE" : [
-                {"name":"After press ALT, use a first tool at Quick Access Toolbar", "mods":[]}
+                {"name":"After pressing ALT, use a first tool at Quick Access Toolbar", "mods":[]}
             ],
 			"TWO" : [
-                {"name":"After press ALT, use a second tool at Quick Access Toolbar", "mods":[]}
+                {"name":"After pressing ALT, use a second tool at Quick Access Toolbar", "mods":[]}
             ],
 			"THREE" : [
-                {"name":"After press ALT, use a third tool at Quick Access Toolbar", "mods":[]}
+                {"name":"After pressing ALT, use a third tool at Quick Access Toolbar", "mods":[]}
             ],
 			"FOUR" : [
-                {"name":"After press ALT, use a fourth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"After pressing ALT, use a fourth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"FIVE" : [
-                {"name":"After press ALT, use a fifth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"After pressing ALT, use a fifth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"SIX" : [
-                {"name":"After press ALT, use a sixth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"After pressing ALT, use a sixth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"SEVEN" : [
-                {"name":"After press ALT, use a seventh tool at Quick Access Toolbar", "mods":[]}
+                {"name":"After pressing ALT, use a seventh tool at Quick Access Toolbar", "mods":[]}
             ],
 			"EIGHT" : [
-                {"name":"After press ALT, use a eighth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"After pressing ALT, use a eighth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"NINE" : [
-                {"name":"After press ALT, use a nineth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"After pressing ALT, use a nineth tool at Quick Access Toolbar", "mods":[]}
             ],
 			"ESC" : [
                 {"name":"Deselect All when option is checked", "mods":[]}
