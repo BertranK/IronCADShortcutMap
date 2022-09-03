@@ -50,7 +50,7 @@ header p {
     margin: 0;
 }
 
-header a {
+a {
     color: darkgray;
 }
 
@@ -1092,7 +1092,7 @@ div#keyboard button.mod-other.mod-active {
 /* Position tooltip above the element */
 [data-tooltip]:before {
   position: absolute;
-  bottom: 150%;
+  bottom: 120%;
   left: 50%;
   margin-bottom: 5px;
   margin-left: -80px;
@@ -1113,7 +1113,7 @@ div#keyboard button.mod-other.mod-active {
 /* Triangle hack to make tooltip look like a speech bubble */
 [data-tooltip]:after {
   position: absolute;
-  bottom: 150%;
+  bottom: 120%;
   left: 50%;
   margin-left: -5px;
   width: 0;
