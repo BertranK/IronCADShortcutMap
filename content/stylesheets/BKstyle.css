@@ -1043,12 +1043,8 @@ div#keyboard button.mod-other.mod-active {
       width: 300px;
       border-radius: 50%;
     }
-    .circle {
-      display: none;
-    }
-    .square {
-      display: initial;
-    }
+    .circle {display: none;}
+    .square {display: initial;}
   }
 }
 .circle-to-square {
