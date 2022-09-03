@@ -1063,7 +1063,7 @@ div#keyboard button.mod-other.mod-active {
   align-items: center;
   transition: 0.5s ease all;
   .square {
-    display: none;
+display: none;
   }
 }
 
