@@ -58,17 +58,13 @@
                 {"name":"Look At", "mods":[]},
                 {"name":"Target", "mods":["CONTROL"]}
             ],
-			"W" : [
-                {"name":"Look At", "mods":[]},
-                {"name":"Window zoom", "mods":["SHIFT"]}
-            ],
 			"F8" : [
                 {"name":"Fit Scene", "mods":[]},
                 {"name":"Activate the internal software renderer", "mods":["CONTROL"]}
             ],
 			"F9" : [
                 {"name":"Perspective", "mods":[]},
-                {"name":"Activate OpenGL rendering", "mods":["CONTROL"]}
+                {"name":"Activate OpenGL rendering", "mods":["CONTROL"]},
 				{"name":"Toggle between Fluent Ribbon UI and Toolbar UI", "mods":["CONTROL", "SHIFT"]}
             ],
 			"F10" : [
@@ -76,7 +72,7 @@
                 {"name":"Activate Hoops3D rendering", "mods":["CONTROL"]}
             ],
             "ACCENT_GRAVE" : [
-                {"name":"[Click] Select the lowest visible assembly", "mods":[]}
+                {"name":"+ [C] Select the lowest visible assembly", "mods":[]}
             ],
             "BACKSPACE" : [
                 {"name":"Undo", "mods":["ALT"]}
@@ -86,11 +82,16 @@
 				{"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
             ],
 			"Q" : [
-                {"name":"Toggles TriBall on/off for shape/part", "mods":[]}
+                {"name":"Toggles TriBall on/off for shape/part", "mods":[]},
+                {"name":"Activates the Search Commands", "mods":["ALT"]}
             ],
             "W" : [
+                {"name":"Look At", "mods":[]},
+                {"name":"Window zoom", "mods":["SHIFT"]},
                 {"name":"Close", "mods":["CONTROL"]}
             ],	
+			"W" : [
+            ],
             "E" : [
                 {"name":"Toggle Hidden Edges-Hide All Edges-Show Edges", "mods":["CONTROL"]},
 				{"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
@@ -141,14 +142,14 @@
             ],
             "G" : [
                 {"name":"Ghost", "mods":[]},
-				{"name":"UnGhost", "mods":["SHIFT"]}
+				{"name":"UnGhost All", "mods":["SHIFT"]}
             ],
             "H" : [
                 {"name":"Hide Selected", "mods":[]}
             ],
             "K" : [
-                {"name":"Suppress", "mods":[]},
-                {"name":"Unsuppress", "mods":["SHIFT"]},
+                {"name":"Suppress selected", "mods":[]},
+                {"name":"Unsuppress selected", "mods":["SHIFT"]},
                 {"name":"Toggle BTW Parasolid and ACIS kernels", "mods":["CONTROL"]}
             ],
 			"L" : [
@@ -179,6 +180,20 @@
             ],
             "M" : [
                 {"name":"Measurement", "mods":[]}
+            ],
+			"SHIFT" : [
+                {"name":"+ [D] Direct select of parts in a scene", "mods":[]},
+            ],
+			"CONTROL" : [
+                {"name":"+ [C] Direct select of parts in a scene", "mods":[]},
+				{"name":"+ [C] Multi-select Sizebox handles, + [Drag] Incremental handle snap", "mods":["CONTROL"]},
+				{"name":"+ [C] Direct select of multiple parts in a scene", "mods":["SHIFT"]},
+				{"name":"+ [C] Enable Selection List for faces, edges, and vertex entities", "mods":["CONTROL", "ALT"]},
+				{"name":"+ [C] Enable Multiple Selection List for faces, edges, and vertex entities", "mods":["CONTROL", "SHIFT", "ALT"]}
+            ],
+			"ALT" : [
+                {"name":"+ [C] Direct select of features in a scene", "mods":[]},
+				{"name":"+ [C] Direct select of multiple features in a scene", "mods":["SHIFT"]}
             ],
 			"SPACE" : [
                 {"name":"Toggle between TriBall Only and moving the shape and part With TriBall Secelted", "mods":[]},
@@ -232,20 +247,23 @@
 			"SIX" : [
                 {"name":"0.000000 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
             ],
-			"B" : [
-                {"name":"Switch selected view to Draft/Precise Quality", "mods":["CONTROL", "SHIFT"]}
+			"TAB" : [
+                {"name":"Toggle between parallel/horizontal/vertical on SmartDimension", "mods":[]}
             ],
-			"L" : [
-                {"name":"Accesses Links dialog box", "mods":["CONTROL", "SHIFT"]}
+			"R" : [
+                {"name":"Reverse the knee direction of a Smart Dimension", "mods":["CONTROL"]}
+            ],
+            "S" : [
+				{"name":"Quick Access Command Toolbar", "mods":[]}
             ],
 			"F" : [
                 {"name":"Flip Inside/Outside Arrows on SmartDimension", "mods":["CONTROL"]}
             ],
-			"TAB" : [
-                {"name":"Toggle between parallel/horizontal/vertical on SmartDimension", "mods":[]}
+			"L" : [
+                {"name":"Accesses Links dialog box", "mods":["CONTROL", "SHIFT"]}
             ],
-            "S" : [
-				{"name":"Quick Access Command Toolbar", "mods":[]}
+			"B" : [
+                {"name":"Switch selected view to Draft/Precise Quality", "mods":["CONTROL", "SHIFT"]}
             ],
 			"SPACE" : [
                 {"name":"Enable Snap To options (ex. Snap to Quadrant) on SmartDimension", "mods":[]}
