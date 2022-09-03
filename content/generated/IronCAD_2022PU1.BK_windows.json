@@ -1,32 +1,424 @@
 {
-    "name" : "IronCAD-Scene",
-    "version" : "2022PU1.BK",
+    "name" : "IronCAD",
+    "version" : "2022PU1.ORG",
     "os" : "windows",
     "mods_used" : ["ALT", "CONTROL", "SHIFT"],
-    "default_context" : "Main UI",
+    "default_context" : "Scene",
     "contexts" : {
-        "ActiveShade" : {
-            "D" : [
-                {"name":"Draw Region", "mods":[]}
+        "Scene" : {
+			"ONE" : [
+                {"name":"After pressing ALT, use a first tool at Quick Access Toolbar", "mods":[]}
             ],
-            "P" : [
-                {"name":"Initialize", "mods":[]}
+			"TWO" : [
+                {"name":"After pressing ALT, use a second tool at Quick Access Toolbar", "mods":[]}
             ],
-            "Q" : [
-                {"name":"Close", "mods":[]}
+			"THREE" : [
+                {"name":"After pressing ALT, use a third tool at Quick Access Toolbar", "mods":[]}
+            ],
+			"FOUR" : [
+                {"name":"After pressing ALT, use a fourth tool at Quick Access Toolbar", "mods":[]}
+            ],
+			"FIVE" : [
+                {"name":"After pressing ALT, use a fifth tool at Quick Access Toolbar", "mods":[]}
+            ],
+			"SIX" : [
+                {"name":"After pressing ALT, use a sixth tool at Quick Access Toolbar", "mods":[]}
+            ],
+			"SEVEN" : [
+                {"name":"After pressing ALT, use a seventh tool at Quick Access Toolbar", "mods":[]}
+            ],
+			"EIGHT" : [
+                {"name":"After pressing ALT, use a eighth tool at Quick Access Toolbar", "mods":[]}
+            ],
+			"NINE" : [
+                {"name":"After pressing ALT, use a nineth tool at Quick Access Toolbar", "mods":[]}
+            ],
+			"ESC" : [
+                {"name":"Deselect All when option is checked", "mods":[]}
+            ],
+            "F1" : [
+                {"name":"Context Help", "mods":["SHIFT"]},
+				{"name":"Help", "mods":[]}
+            ],	
+			"F2" : [
+                {"name":"Pan", "mods":[]},
+                {"name":"Walk", "mods":["SHIFT"]}
+            ],
+			"F3" : [
+                {"name":"Orbit", "mods":[]}
+            ],
+			"F4" : [
+                {"name":"Dolly", "mods":[]}
+            ],
+			"F5" : [
+                {"name":"Zoom", "mods":[]},
+                {"name":"Window zoom", "mods":["CONTROL"]}
+            ],
+			"F7" : [
+                {"name":"Look At", "mods":[]},
+                {"name":"Target", "mods":["CONTROL"]}
+            ],
+			"F8" : [
+                {"name":"Fit Scene", "mods":[]},
+                {"name":"Activate the internal software renderer", "mods":["CONTROL"]}
+            ],
+			"F9" : [
+                {"name":"Perspective", "mods":[]},
+                {"name":"Activate OpenGL rendering", "mods":["CONTROL"]},
+				{"name":"Toggle between Fluent Ribbon UI and Toolbar UI", "mods":["CONTROL", "SHIFT"]}
+            ],
+			"F10" : [
+                {"name":"Toggles TriBall on/off for shape/part", "mods":[]},
+                {"name":"Activate Hoops3D rendering", "mods":["CONTROL"]}
+            ],
+            "ACCENT_GRAVE" : [
+                {"name":"[C] Select the lowest visible assembly", "mods":[]}
+            ],
+            "BACKSPACE" : [
+                {"name":"Undo", "mods":["ALT"]}
+            ],	
+            "TAB" : [
+                {"name":"Toggle BTW scene and drawing environments", "mods":["CONTROL"]},
+				{"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
+            ],
+			"Q" : [
+                {"name":"Toggles TriBall on/off for shape/part", "mods":[]},
+                {"name":"Activates the Search Commands", "mods":["ALT"]}
+            ],
+            "W" : [
+                {"name":"Look At", "mods":[]},
+                {"name":"Window zoom", "mods":["SHIFT"]},
+                {"name":"Close", "mods":["CONTROL"]}
+            ],
+            "E" : [
+                {"name":"Toggle Hidden Edges-Hide All Edges-Show Edges", "mods":["CONTROL"]},
+				{"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
             ],
             "R" : [
-                {"name":"Render", "mods":[]}
+				{"name":"Right", "mods":[]},
+                {"name":"Immediate activation of realistic rendering", "mods":["CONTROL"]},
+                {"name":"Toggle Fluent Ribbon Bar On/Off", "mods":["CONTROL", "SHIFT"]}
+            ],
+			"T" : [
+                {"name":"Top", "mods":[]}
+            ],
+            "Y" : [
+                {"name":"Redo", "mods":["CONTROL"]},
+				{"name":"Show/Hide XZ Plane", "mods":[]},
+                {"name":"Set/Cancel XZ Current Plane", "mods":["ALT"]}
+            ],	
+			"I" : [
+                {"name":"Top-Front-Right", "mods":[]}
+            ],
+            "O" : [
+                {"name":"Open", "mods":["CONTROL"]}
+            ],
+			"P" : [
+                {"name":"Place point for selected curve type when TriBall is Active", "mods":[]},
+                {"name":"Print", "mods":["CONTROL"]}
+            ],	
+			"N" : [
+                {"name":"New Scene Using Default Template", "mods":[]},
+                {"name":"New", "mods":["CONTROL"]},
+                {"name":"New Drawing Using Default Template", "mods":["SHIFT"]}
+            ],
+            "A" : [
+                {"name":"Select All", "mods":["CONTROL"]},
+				{"name":"Show All Planes", "mods":[]},
+				{"name":"Advanced Selector", "mods":["ALT"]},
+				{"name":"Set as active", "mods":["CONTROL", "SHIFT"]}
             ],
             "S" : [
-                {"name":"Select Object", "mods":[]}
+				{"name":"Quick Access Command Toolbar", "mods":[]},
+                {"name":"Save", "mods":["CONTROL"]}
             ],
-            "SPACE" : [
-                {"name":"Toggle Toolbar (Docked)", "mods":[]}
+			"D" : [
+                {"name":"Fit Scene", "mods":[]}
             ],
-            "U" : [
-                {"name":"Update", "mods":[]}
+			"F" : [
+                {"name":"Front", "mods":[]}
+            ],
+            "G" : [
+                {"name":"Ghost", "mods":[]},
+				{"name":"UnGhost All", "mods":["SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Hide Selected", "mods":[]}
+            ],
+            "K" : [
+                {"name":"Suppress selected", "mods":[]},
+                {"name":"Unsuppress selected", "mods":["SHIFT"]},
+                {"name":"Toggle BTW Parasolid and ACIS kernels", "mods":["CONTROL"]}
+            ],
+			"L" : [
+                {"name":"Left", "mods":[]}
+            ],
+            "ENTER" : [
+                {"name":"Repeat Command", "mods":["ALT"]}
+            ],
+            "Z" : [
+                {"name":"Undo", "mods":["CONTROL"]},
+                {"name":"Fit Scene to Selection", "mods":["SHIFT"]},
+				{"name":"Show/Hide XY Plane", "mods":[]},
+                {"name":"Set/Cancel XY Current Plane", "mods":["ALT"]}
+            ],	
+            "X" : [
+                {"name":"Cut", "mods":["CONTROL"]},
+				{"name":"Show/Hide YZ Plane", "mods":[]},
+                {"name":"Set/Cancel YZ Current Plane", "mods":["ALT"]}
+            ],
+            "C" : [
+                {"name":"Copy", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"Paste", "mods":["CONTROL"]}
+            ],
+            "B" : [
+                {"name":"Find in Scene Browser", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"Measurement", "mods":[]}
+            ],
+			"SHIFT" : [
+                {"name":"[D] Direct select of parts in a scene", "mods":[]},
+				{"name":"[C] Direct select of multiple parts in a scene", "mods":["CONTROL"]},
+				{"name":"[C] Direct select of multiple features in a scene", "mods":["ALT"]},
+				{"name":"[C] Enable Multiple Selection List for faces, edges, and vertex entities", "mods":["CONTROL", "ALT"]}
+            ],
+			"CONTROL" : [
+                {"name":"[C] Direct select of parts in a scene", "mods":[]},
+				{"name":"[C] Multi-select Sizebox handles, [D Incremental handle snap", "mods":["CONTROL"]},
+				{"name":"[C] Direct select of multiple parts in a scene", "mods":["SHIFT"]},
+				{"name":"[C] Enable Selection List for faces, edges, and vertex entities", "mods":["ALT"]},
+				{"name":"[C] Enable Multiple Selection List for faces, edges, and vertex entities", "mods":["SHIFT", "ALT"]}
+            ],
+			"ALT" : [
+                {"name":"[C] Direct select of features in a scene", "mods":[]},
+				{"name":"[C] Direct select of multiple features in a scene", "mods":["SHIFT"]},
+				{"name":"[C] Enable Selection List for faces, edges, and vertex entities", "mods":["CONTROL"]},
+				{"name":"[C] Enable Multiple Selection List for faces, edges, and vertex entities", "mods":["SHIFT", "CONTROL"]}
+            ],
+			"SPACE" : [
+                {"name":"Toggle between TriBall Only and moving the shape and part With TriBall Secelted", "mods":[]},
+				{"name":"Show All", "mods":["SHIFT"]}
+            ],
+            "NUMPAD_PERIOD" : [
+                {"name":"Cut", "mods":["SHIFT"]}
+            ],	
+			"NUMPAD_ZERO" : [
+                {"name":"Copy", "mods":["CONTROL"]},
+                {"name":"Paste", "mods":["SHIFT"]}
+            ],	
+            "DELETE" : [
+                {"name":"Delete", "mods":[]}
+            ],
+            "Select" : [
+                {"name":"Multiple selection", "mods":["SHIFT"]}
+            ],
+            "Left-Click" : [
+                {"name":"Direct select of parts in a scene", "mods":["CONTROL"]}
+            ],
+            "Left-Click" : [
+                {"name":"Direct select of multiple parts in a scene", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "Left-Click" : [
+                {"name":"Direct select of features in a scene", "mods":["ALT"]}
+            ],
+            "Left-Click" : [
+                {"name":"Direct select of multiple features in a scene", "mods":["ALT", "SHIFT"]}
             ]
-        }
+		},
+		"2D Drawing(ICD)" : {
+			"ZERO" : [
+                {"name":"0 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+            ],
+			"ONE" : [
+                {"name":"0.0 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+            ],
+			"TWO" : [
+                {"name":"0.00 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+            ],
+			"THREE" : [
+                {"name":"0.000 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+            ],
+			"FOUR" : [
+                {"name":"0.0000 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+            ],
+			"FIVE" : [
+                {"name":"0.00000 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+            ],
+			"SIX" : [
+                {"name":"0.000000 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
+            ],
+			"TAB" : [
+                {"name":"Toggle between parallel/horizontal/vertical on SmartDimension", "mods":[]}
+            ],
+			"R" : [
+                {"name":"Reverse the knee direction of a Smart Dimension", "mods":["CONTROL"]}
+            ],
+            "S" : [
+				{"name":"Quick Access Command Toolbar", "mods":[]}
+            ],
+			"F" : [
+                {"name":"Flip Inside/Outside Arrows on SmartDimension", "mods":["CONTROL"]}
+            ],
+			"L" : [
+                {"name":"Accesses Links dialog box", "mods":["CONTROL", "SHIFT"]}
+            ],
+			"B" : [
+                {"name":"Switch selected view to Draft/Precise Quality", "mods":["CONTROL", "SHIFT"]}
+            ],
+			"SPACE" : [
+                {"name":"Enable Snap To options (ex. Snap to Quadrant) on SmartDimension", "mods":[]}
+            ]
+		},
+		"Scene: Camera Function Keys/Buttons Assignment" : {
+			"F2" : [
+                {"name":"Pan", "mods":[]},
+                {"name":"Walk", "mods":["SHIFT"]}
+            ],
+			"F3" : [
+                {"name":"Orbit", "mods":[]}
+            ],
+			"F4" : [
+                {"name":"Dolly", "mods":[]}
+            ],
+			"F5" : [
+                {"name":"Zoom", "mods":[]},
+                {"name":"Window zoom", "mods":["CONTROL"]}
+            ],
+			"F7" : [
+                {"name":"Look At", "mods":[]},
+                {"name":"Target", "mods":["CONTROL"]}
+            ],
+			"W" : [
+                {"name":"Look At", "mods":[]},
+                {"name":"Window zoom", "mods":["SHIFT"]}
+            ],
+			"F8" : [
+                {"name":"Fit Scene", "mods":[]},
+                {"name":"Activate the internal software renderer", "mods":["CONTROL"]}
+            ],
+			"D" : [
+                {"name":"Fit Scene", "mods":[]}
+            ],
+			"F9" : [
+                {"name":"Perspective", "mods":[]},
+                {"name":"Activate OpenGL rendering", "mods":["CONTROL"]}
+            ],
+			"F10" : [
+                {"name":"Activate Hoops3D rendering", "mods":["CONTROL"]}
+            ],
+			"Z" : [
+                {"name":"Zoom to Selection", "mods":["SHIFT"]}
+            ],
+			"ESC" : [
+                {"name":"Deselect All when option is checked", "mods":[]}
+            ],
+			"S" : [
+                {"name":"Quick Access Command Toolbar", "mods":[]}
+            ]
+        },
+		"Scene: With Orbit Camera Toolbar Button Selected" : {
+			"ALT" : [
+                {"name":"Constrain rotation ver/hor part axis", "mods":[]},
+                {"name":"Constrain rotation ver/hor part axis in 45-degree increments", "mods":["CONTROL"]}
+            ],
+			"SHIFT" : [
+                {"name":"Constrain rotation ver/hor scene axis", "mods":[]},
+                {"name":"Constrain rotation ver/hor scene axis in 45-degree increments", "mods":["CONTROL"]}
+            ]
+		},
+		"Scene: TriBall Function Keys" : {
+			"F10" : [
+                {"name":"Toggles TriBall on/off for shape/part", "mods":[]}
+            ],
+			"Q" : [
+                {"name":"Toggles TriBall on/off for shape/part", "mods":[]}
+            ],
+			"SPACE" : [
+                {"name":"Toggle between TriBall Only and moving the shape and part With TriBall Secelted", "mods":[]}
+            ],
+			"P" : [
+                {"name":"Place point for selected curve type when TriBall is Active", "mods":[]}
+            ]
+		},
+		"Scene: Camera Picker" : {
+			"F" : [
+                {"name":"Front", "mods":[]}
+            ],
+			"T" : [
+                {"name":"Top", "mods":[]}
+            ],
+			"R" : [
+                {"name":"Right", "mods":[]}
+            ],
+			"L" : [
+                {"name":"Left", "mods":[]}
+            ],
+			"I" : [
+                {"name":"Top-Front-Right", "mods":[]}
+            ]
+		},
+		"Scene: Coordinate System Keys" : {
+			"A" : [
+                {"name":"Show All Planes", "mods":[]}
+            ],
+			"X" : [
+				{"name":"Show/Hide YZ Plane", "mods":[]},
+                {"name":"Set/Cancel YZ Current Plane", "mods":["ALT"]}
+            ],
+			"Y" : [
+				{"name":"Show/Hide XZ Plane", "mods":[]},
+                {"name":"Set/Cancel XZ Current Plane", "mods":["ALT"]}
+            ],
+			"Z" : [
+				{"name":"Show/Hide XY Plane", "mods":[]},
+                {"name":"Set/Cancel XY Current Plane", "mods":["ALT"]}
+            ]
+		},
+		"Scene: Miscellaneous Function Keys" : {
+            "K" : [
+                {"name":"Suppress", "mods":[]},
+                {"name":"Unsuppress", "mods":["SHIFT"]},
+                {"name":"Toggle between Parasolid and ACIS modeling kernels", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"Toggle between scene and drawing environments", "mods":["CONTROL"]}
+            ],
+            "E" : [
+                {"name":"Toggle Hidden Edges-Hide All Edges-Show Edges", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
+            ],
+            "A" : [
+				{"name":"Advanced Selector", "mods":["ALT"]},
+                {"name":"Set as active", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "E" : [
+                {"name":"Select tab after selecting an edge to select smoothly connected edges", "mods":[]}
+            ],
+            "S" : [
+                {"name":"Quick Access Command Toolbar", "mods":[]}
+            ],
+            "B" : [
+                {"name":"Find in Scene Browser", "mods":["CONTROL"]}
+            ],
+            "ENTER" : [
+                {"name":"Repeat Command", "mods":["ALT"]}
+            ],
+            "G" : [
+                {"name":"Ghost", "mods":[]},
+				{"name":"UnGhost", "mods":["SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Hide Selected", "mods":[]},
+				{"name":"Show All", "mods":["SHIFT"]}
+            ],
+            "M" : [
+                {"name":"Measurement", "mods":[]}
+            ]
+		}
     }
 }
