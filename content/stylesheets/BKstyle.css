@@ -1042,11 +1042,11 @@ div#keyboard button.mod-other.mod-active {
     .circle-to-square {
       width: 300px;
       border-radius: 50%;
-    }
-    .circle {display: none;}
-    .square {display: initial;}
+	}
   }
-}
+ }
+.circle-to-square__container.circle {display: initial;}
+.circle-to-square__container .square {display: none;}
 .circle-to-square {
   font-family:  'Montserrat', sans-serif;
   width: 100%;
@@ -1058,9 +1058,9 @@ div#keyboard button.mod-other.mod-active {
   justify-content: center;
   align-items: center;
   transition: 0.5s ease all;
-  .square {
+}
+.circle-to-square.square {
 display: none;
-  }
 }
 
 /*** Tooltip ***/
