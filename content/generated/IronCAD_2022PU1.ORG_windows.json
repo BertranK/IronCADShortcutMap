@@ -72,7 +72,7 @@
                 {"name":"Activate Hoops3D rendering", "mods":["CONTROL"]}
             ],
             "ACCENT_GRAVE" : [
-                {"name":"+ [C] Select the lowest visible assembly", "mods":[]}
+                {"name":"[C] Select the lowest visible assembly", "mods":[]}
             ],
             "BACKSPACE" : [
                 {"name":"Undo", "mods":["ALT"]}
@@ -89,8 +89,6 @@
                 {"name":"Look At", "mods":[]},
                 {"name":"Window zoom", "mods":["SHIFT"]},
                 {"name":"Close", "mods":["CONTROL"]}
-            ],	
-			"W" : [
             ],
             "E" : [
                 {"name":"Toggle Hidden Edges-Hide All Edges-Show Edges", "mods":["CONTROL"]},
@@ -182,18 +180,23 @@
                 {"name":"Measurement", "mods":[]}
             ],
 			"SHIFT" : [
-                {"name":"+ [D] Direct select of parts in a scene", "mods":[]}
+                {"name":"[D] Direct select of parts in a scene", "mods":[]},
+				{"name":"[C] Direct select of multiple parts in a scene", "mods":["CONTROL"]},
+				{"name":"[C] Direct select of multiple features in a scene", "mods":["ALT"]},
+				{"name":"[C] Enable Multiple Selection List for faces, edges, and vertex entities", "mods":["CONTROL", "ALT"]}
             ],
 			"CONTROL" : [
-                {"name":"+ [C] Direct select of parts in a scene", "mods":[]},
-				{"name":"+ [C] Multi-select Sizebox handles, + [Drag] Incremental handle snap", "mods":["CONTROL"]},
-				{"name":"+ [C] Direct select of multiple parts in a scene", "mods":["SHIFT"]},
-				{"name":"+ [C] Enable Selection List for faces, edges, and vertex entities", "mods":["CONTROL", "ALT"]},
-				{"name":"+ [C] Enable Multiple Selection List for faces, edges, and vertex entities", "mods":["CONTROL", "SHIFT", "ALT"]}
+                {"name":"[C] Direct select of parts in a scene", "mods":[]},
+				{"name":"[C] Multi-select Sizebox handles, [D Incremental handle snap", "mods":["CONTROL"]},
+				{"name":"[C] Direct select of multiple parts in a scene", "mods":["SHIFT"]},
+				{"name":"[C] Enable Selection List for faces, edges, and vertex entities", "mods":["ALT"]},
+				{"name":"[C] Enable Multiple Selection List for faces, edges, and vertex entities", "mods":["SHIFT", "ALT"]}
             ],
 			"ALT" : [
-                {"name":"+ [C] Direct select of features in a scene", "mods":[]},
-				{"name":"+ [C] Direct select of multiple features in a scene", "mods":["SHIFT"]}
+                {"name":"[C] Direct select of features in a scene", "mods":[]},
+				{"name":"[C] Direct select of multiple features in a scene", "mods":["SHIFT"]},
+				{"name":"[C] Enable Selection List for faces, edges, and vertex entities", "mods":["CONTROL"]},
+				{"name":"[C] Enable Multiple Selection List for faces, edges, and vertex entities", "mods":["SHIFT", "CONTROL"]}
             ],
 			"SPACE" : [
                 {"name":"Toggle between TriBall Only and moving the shape and part With TriBall Secelted", "mods":[]},
@@ -207,7 +210,7 @@
                 {"name":"Paste", "mods":["SHIFT"]}
             ],	
             "DELETE" : [
-                {"name":"Delete", "mods":[""]}
+                {"name":"Delete", "mods":[]}
             ],
             "Select" : [
                 {"name":"Multiple selection", "mods":["SHIFT"]}
