@@ -10,28 +10,28 @@
                 {"name":"After pressing ALT, use a first tool at Quick Access Toolbar", "mods":[]}
             ],
 			"TWO" : [
-                {"name":"\" a second tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a second \"", "mods":[]}
             ],
 			"THREE" : [
-                {"name":"\" a third tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a third \"", "mods":[]}
             ],
 			"FOUR" : [
-                {"name":"\" a fourth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a fourth \"", "mods":[]}
             ],
 			"FIVE" : [
-                {"name":"\" a fifth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a fifth \"", "mods":[]}
             ],
 			"SIX" : [
-                {"name":"\" a sixth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a sixth \"", "mods":[]}
             ],
 			"SEVEN" : [
-                {"name":"\" a seventh tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a seventh \"", "mods":[]}
             ],
 			"EIGHT" : [
-                {"name":"\" a eighth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" a eighth \"", "mods":[]}
             ],
 			"NINE" : [
-                {"name":"\" use a nineth tool at Quick Access Toolbar", "mods":[]}
+                {"name":"\" use a nineth \"", "mods":[]}
             ],
 			"ESC" : [
                 {"name":"Deselect All when option is checked", "mods":[]}
