@@ -1071,6 +1071,12 @@ div#keyboard button.mod-other.mod-active {
 .TriBall {
  background-image: url(https://github.com/BertranK/IronCADShortcutMap/raw/main/IronCAD/IMG/TriBall.png);
 }
+.Anchor {
+ background-image: url(https://github.com/BertranK/IronCADShortcutMap/raw/main/IronCAD/IMG/Anchor.png);
+}
+.Shortcut {
+ background-image: url(https://github.com/BertranK/IronCADShortcutMap/raw/main/IronCAD/IMG/electric-keyboard.png.png);
+}
 
 /*** Tooltip ***/
 /**
