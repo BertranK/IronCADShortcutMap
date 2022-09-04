@@ -229,11 +229,8 @@
             ]
 		},
 		"2D Drawing(ICD)" : {
-			"ZERO" : [
-                {"name":"0 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
-            ],
 			"ONE" : [
-                {"name":"0.0 \"", "mods":["CONTROL"]}
+                {"name":"0.0 decimal places for the selected dimension(s)", "mods":["CONTROL"]}
             ],
 			"TWO" : [
                 {"name":"0.00 \"", "mods":["CONTROL"]}
@@ -249,6 +246,9 @@
             ],
 			"SIX" : [
                 {"name":"0.000000 \"", "mods":["CONTROL"]}
+            ],
+			"ZERO" : [
+                {"name":"0 \"", "mods":["CONTROL"]}
             ],
 			"TAB" : [
                 {"name":"Toggle between parallel/horizontal/vertical on SmartDimension", "mods":[]}
