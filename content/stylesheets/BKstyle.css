@@ -1034,7 +1034,9 @@ div#keyboard button.mod-other.mod-active {
 /*** Image hover effect round to square ***/
 
 .circle-to-square__container {
-  width: 100%;
+  position: relative;
+  width: 1768px;
+  margin: 1px auto 0 auto;
   height: 256px;
   display: flex;
   justify-content: center;
