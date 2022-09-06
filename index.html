@@ -37,6 +37,40 @@
         ga('create', 'UA-50851062-1', 'waldobronchart.github.io');
         ga('send', 'pageview');
     </script>
+	<style>
+	.circle-to-square__container {
+	  width: 1768px;
+	  height: 300px;
+	  display: flex;
+	  justify-content: center;
+	}
+	.circle-to-square__container:hover .circle-to-square {
+	  width: 300px;
+	  border-radius: 50%;
+	}
+	.circle-to-square__container:hover .circle {
+	  display: none;
+	}
+	.circle-to-square__container:hover .square {
+	  display: initial;
+	}
+
+	.circle-to-square {
+	  font-family: sans-serif;
+	  width: 100%;
+	  height: 100%;
+	  background-color: yellow;
+	  border: 8px solid red;
+	  text-align: center;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  transition: 0.5s ease all;
+	}
+	.circle-to-square .square {
+	  display: none;
+	}
+	</style>
 </head>
 
 <body>
