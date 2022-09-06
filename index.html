@@ -40,22 +40,24 @@
 	<style>
 	.IronCADcontents {
 	 width: 1768px;
+	 color:#ffffff;
 	}
 	.circle-to-square__container {
 	  width: 33%;
 	  height: 300px;
 	  display: flex;
 	  justify-content: center;
+	  float:left;
 	}
 	.circle-to-square__container:hover .circle-to-square {
 	  width: 300px;
 	  border-radius: 50%;
 	}
 	.circle-to-square__container:hover .circle {
-	  display: none;
+	  display: initial;
 	}
 	.circle-to-square__container:hover .square {
-	  display: initial;
+	  display: none;
 	}
 
 	.circle-to-square {
@@ -69,7 +71,15 @@
 	  transition: 0.5s ease all;
 	}
 	.circle-to-square .square {
-	  display: none;
+	  display: initial;
+	}
+	.circle {
+	position: relative;
+    top: 90px;
+	}
+	.square {
+	position: relative;
+    top: 90px;
 	}
 	</style>
 </head>

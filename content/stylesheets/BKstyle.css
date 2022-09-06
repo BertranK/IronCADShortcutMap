@@ -1029,12 +1029,18 @@ div#keyboard button.mod-other.mod-active {
 /*** Image hover effect round to square ***/
 .TriBall {
  background-image: url(https://github.com/BertranK/IronCADShortcutMap/raw/main/IronCAD/IMG/TriBall.png);
+ background-repeat:no-repeat;
+ background-position: center center;
 }
 .Anchor {
  background-image: url(https://github.com/BertranK/IronCADShortcutMap/raw/main/IronCAD/IMG/Anchor.png);
+ background-repeat:no-repeat;
+ background-position: center center;
 }
 .Shortcut {
  background-image: url(https://github.com/BertranK/IronCADShortcutMap/raw/main/IronCAD/IMG/electric-keyboard.png.png);
+ background-repeat:no-repeat;
+ background-position: center center;
 }
 
 /*** Tooltip ***/
