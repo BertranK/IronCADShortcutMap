@@ -1032,18 +1032,21 @@ div#keyboard button.mod-other.mod-active {
  background-repeat:no-repeat;
  background-position: center center;
  height: 100%;
+ border: 6px solid #ED0;
 }
 .Anchor {
  background-image: url(https://github.com/BertranK/IronCADShortcutMap/raw/main/IronCAD/IMG/anchor.png);
  background-repeat:no-repeat;
  background-position: center center;
  height: 100%;
+ border: 6px solid #C25;
 }
 .Keyboard {
  background-image: url(https://github.com/BertranK/IronCADShortcutMap/raw/main/IronCAD/IMG/electric-keyboard.png);
  background-repeat:no-repeat;
  background-position: center center;
  height: 100%;
+ border: 6px solid #E62;
 }
 
 /*** Tooltip ***/
