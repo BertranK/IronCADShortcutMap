@@ -54,11 +54,11 @@
 	  border-radius: 0;
 	}
 	.circle-to-square__container:hover .circle {
-	  text-shadow: 4px 4px 0px rgb(0 0 0 / 50%);
+	  text-shadow: none;
 	  display: none;
 	}
 	.circle-to-square__container:hover .square {
-	  text-shadow: 4px 4px 0px rgb(0 0 0 / 50%);
+	  text-shadow: none;
 	  display: initial;
 	}
 	.circle-to-square {
@@ -73,12 +73,16 @@
 		  transition: 0.5s ease all;
 	}
 	.circle {
+	text-shadow: 4px 4px 0px rgb(0 0 0 / 50%);
 	position: relative;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: black;
 	}
 	.square {
+	text-shadow: 4px 4px 0px rgb(0 0 0 / 50%);
 	position: relative;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: black;
 	display: none;
 	}
 	</style>
