@@ -48,30 +48,27 @@
 	  display: flex;
 	  justify-content: center;
 	  float:left;
-	  border-radius: 50%;
 	}
 	.circle-to-square__container:hover .circle-to-square {
 	  width: 100%;
 	  border-radius: 0;
 	}
 	.circle-to-square__container:hover .circle {
-	  display: initial;
-	}
-	.circle-to-square__container:hover .square {
 	  display: none;
 	}
+	.circle-to-square__container:hover .square {
+	  display: initial;
+	}
 	.circle-to-square {
+		  border-radius: 50%;
 		  font-family: sans-serif;
-		  width: 100%;
+		  width: 256px;
 		  height: 100%;
 		  text-align: center;
 		  display: flex;
 		  justify-content: center;
 		  align-items: center;
 		  transition: 0.5s ease all;
-		  .circle {
-		  display: none;
-		}
 	}
 	.circle {
 	position: relative;
