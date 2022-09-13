@@ -27,7 +27,7 @@ var title = new Zdog.TextGroup({
   addTo: illo,
   font: font,
   value: "IronCAD Keyboard Shortcuts Map",
-  fontSize: 60,
+  fontSize: 20,
   translate: {y: -100},
   textAlign: 'center',
   textBaseline: 'middle',
@@ -51,7 +51,7 @@ var sub = new Zdog.TextGroup({
     'A visual shortcuts explorer for IronCAD and somethings?',
     '[C] means with Left Click, [D] means with Left Click and drag something'
   ],
-  fontSize: 42,
+  fontSize: 12,
   textAlign: 'center',
   textBaseline: 'middle',
   color: '#fff',
