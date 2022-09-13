@@ -7,10 +7,10 @@ var illo = new Zdog.Illustration({
   element: '.zdog-canvas',
   dragRotate: true,
   rotate: {x: -0.32, y: 0.64, z: 0},
-  resize: 'fullscreen',
-  onResize: function(width, height) {
-    var minSize = Math.min(width, height);
-    this.zoom = minSize / 420;
+//  resize: 'fullscreen',
+//  onResize: function(width, height) {
+//    var minSize = Math.min(width, height);
+//    this.zoom = minSize / 420;
   }
 });
 
@@ -67,7 +67,7 @@ var subShadow = sub.copyGraph({
 // Settings for the wave animation
 var t = 0;
 var tStep = 5;
-var amplitude = 0.75;
+var amplitude = 0.25;
 var frequency = 50;
 
 // Wave function
