@@ -7,7 +7,7 @@ var illo = new Zdog.Illustration({
   element: '.zdog-canvas',
   dragRotate: true,
   rotate: {x: -0.32, y: 0.64, z: 0},
-//  resize: 'fullscreen',
+  resize: 'fullscreen',
 //  onResize: function(width, height) {
 //    var minSize = Math.min(width, height);
 //    this.zoom = minSize / 420;
