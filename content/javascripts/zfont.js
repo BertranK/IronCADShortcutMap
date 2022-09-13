@@ -26,7 +26,7 @@ var font = new Zdog.Font({
 var title = new Zdog.TextGroup({
   addTo: illo,
   font: font,
-  value: "Zfont",
+  value: "IronCAD Keyboard Shortcuts Map",
   fontSize: 60,
   translate: {y: -100},
   textAlign: 'center',
@@ -48,8 +48,8 @@ var sub = new Zdog.TextGroup({
   font: font,
   // Pass an array as the text value for multiline text:   
   value: [
-    'A text plugin for',
-    'the Zdog 3D engine'
+    'A visual shortcuts explorer for IronCAD and somethings?',
+    '[C] means with Left Click, [D] means with Left Click and drag something'
   ],
   fontSize: 42,
   textAlign: 'center',
@@ -68,7 +68,7 @@ var subShadow = sub.copyGraph({
 var t = 0;
 var tStep = 5;
 var amplitude = 0.75;
-var frequency = 80;
+var frequency = 50;
 
 // Wave function
 // This loops through every shape in a TextGroup and modifies its position according to a sine wave
