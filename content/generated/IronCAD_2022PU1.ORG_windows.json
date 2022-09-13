@@ -226,6 +226,15 @@
             ],
             "Left-Click" : [
                 {"name":"Direct select of multiple features in a scene", "mods":["ALT", "SHIFT"]}
+            ],
+            "NUMPAD_ASTERISK" : [
+                {"name":"Expand all trees below a selected item", "mods":[]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"Collapse all trees below a selected item", "mods":[]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"Expand tree a selected item only one step", "mods":[]}
             ]
 		},
 		"2D Drawing(ICD)" : {
@@ -418,6 +427,15 @@
             ],
             "M" : [
                 {"name":"Measurement", "mods":[]}
+            ],
+            "NUMPAD_ASTERISK" : [
+                {"name":"Expand all trees below a selected item", "mods":[]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"Collapse all trees below a selected item", "mods":[]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"Expand tree a selected item only one step", "mods":[]}
             ]
 		}
     }
