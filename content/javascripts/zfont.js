@@ -10,7 +10,7 @@ var illo = new Zdog.Illustration({
   resize: 'fullscreen',
   onResize: function(width, height) {
     var minSize = Math.min(width, height);
-    this.zoom = minSize / 200;
+    this.zoom = minSize / 420;
   }
 });
 
