@@ -26,9 +26,9 @@ var font = new Zdog.Font({
 var title = new Zdog.TextGroup({
   addTo: illo,
   font: font,
-  value: "Zfont",
-  fontSize: 60,
-  translate: {y: -100},
+  value: "IronCAD Keyboard Shortcuts Map",
+  fontSize: 20,
+//  translate: {y: -100},
   textAlign: 'center',
   textBaseline: 'middle',
   color: '#fff',
@@ -37,7 +37,7 @@ var title = new Zdog.TextGroup({
 
 // Duplicate the title to create a shadow effect
 var titleShadow = title.copyGraph({
-  translate: { z: -6, y: -100 },
+  translate: { z: -6 },
   color: '#aab'
 });
 
@@ -48,8 +48,8 @@ var sub = new Zdog.TextGroup({
   font: font,
   // Pass an array as the text value for multiline text:   
   value: [
-    'A text plugin for',
-    'the Zdog 3D engine'
+//    'A text plugin for',
+//    'the Zdog 3D engine'
   ],
   fontSize: 42,
   textAlign: 'center',
