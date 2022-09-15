@@ -1049,12 +1049,12 @@ div#keyboard button.mod-other.mod-active {
  border: 6px solid #E62;
 }
 
-/*** Jdog
+/*** Jdog ***/
 .zdog-canvas {
-  background:#5222ee;
   display:block;
   width: 100%;
   height: 100%;
+  cursor:move;
 }
 
 /*** Tooltip ***/
