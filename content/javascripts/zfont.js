@@ -28,7 +28,7 @@ var title = new Zdog.TextGroup({
   font: font,
   value: "IronCAD Keyboard Shortcuts Map",
   fontSize: 10,
-  translate: {y: -100},
+  //translate: {y: -100},
   textAlign: 'center',
   textBaseline: 'middle',
   color: '#fff',
@@ -37,7 +37,7 @@ var title = new Zdog.TextGroup({
 
 // Duplicate the title to create a shadow effect
 var titleShadow = title.copyGraph({
-  translate: { z: -6, y: -100 },
+  translate: { z: -6 },
   color: '#aab'
 });
 
