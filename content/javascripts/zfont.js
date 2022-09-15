@@ -27,8 +27,8 @@ var title = new Zdog.TextGroup({
   addTo: illo,
   font: font,
   value: "IronCAD Keyboard Shortcuts Map",
-  fontSize: 10,
-  //translate: {y: -100},
+  fontSize: 20,
+//  translate: {y: -100},
   textAlign: 'center',
   textBaseline: 'middle',
   color: '#fff',
@@ -41,12 +41,11 @@ var titleShadow = title.copyGraph({
   color: '#aab'
 });
 
-
 // Settings for the wave animation
 var t = 0;
 var tStep = 5;
-var amplitude = 0.25;
-var frequency = 50;
+var amplitude = 0.75;
+var frequency = 80;
 
 // Wave function
 // This loops through every shape in a TextGroup and modifies its position according to a sine wave
