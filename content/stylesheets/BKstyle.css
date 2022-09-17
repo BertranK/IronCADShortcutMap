@@ -1051,7 +1051,7 @@ div#keyboard button.mod-other.mod-active {
 
 /*** Jdog ***/
 .zdog-canvas {
-  position: fixed;
+  position: absolute;
   cursor: move;
   left: 10%;
 }
