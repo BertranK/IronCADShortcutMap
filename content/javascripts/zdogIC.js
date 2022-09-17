@@ -16,7 +16,7 @@ var yellow = '#FD0';
 var illo = new Zdog.Illustration({
   element: '.zdog-canvas',
   dragRotate: true,
-  zoom: 3.4,
+  zoom: 3.2,
   onDragStart: function() {
     isSpinning = false;
   },
