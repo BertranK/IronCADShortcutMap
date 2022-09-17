@@ -1051,10 +1051,11 @@ div#keyboard button.mod-other.mod-active {
 
 /*** Jdog ***/
 .zdog-canvas {
-  display:block;
+  margin: auto;
+  display: block;
   width: 100%;
   height: 100%;
-  cursor:move;
+  cursor: move;
 }
 
 /*** Tooltip ***/
