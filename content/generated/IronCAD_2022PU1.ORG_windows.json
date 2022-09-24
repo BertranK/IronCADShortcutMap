@@ -107,6 +107,9 @@
 				{"name":"Show/Hide XZ Plane", "mods":[]},
                 {"name":"Set/Cancel XZ Current Plane", "mods":["ALT"]}
             ],	
+			"U" : [
+                {"name":"Unfold Sheet Metal Part? I'm not sure is it a default key", "mods":[]}
+            ],
 			"I" : [
                 {"name":"Top-Front-Right", "mods":[]}
             ],
@@ -180,7 +183,7 @@
                 {"name":"Measurement", "mods":[]}
             ],
 			"SHIFT" : [
-                {"name":"[D] Direct select of parts in a scene", "mods":[]},
+                {"name":"[C] Multiple selection", "mods":[]},
 				{"name":"[C] Direct select of multiple parts in a scene", "mods":["CONTROL"]},
 				{"name":"[C] Direct select of multiple features in a scene", "mods":["ALT"]},
 				{"name":"[C] Enable Multiple Selection List for faces, edges, and vertex entities", "mods":["CONTROL", "ALT"]}
