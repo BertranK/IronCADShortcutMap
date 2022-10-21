@@ -465,9 +465,6 @@ div#keyboard div.mac-fkeys button {
 div#keyboard button.high {
     height: 131px;
 }
-div#keyboard button.high.shortcut {
-    max-height: 86px;
-}
 div#keyboard button.wide {
     width: 124px;
 }
@@ -595,6 +592,9 @@ div#keyboard button .shortcut {
     word-wrap: break-word;
 }
 
+div#keyboard button .high .shortcut {
+    max-height: 86px;
+}
 
 /*** KEYBOARD BUTTON STYLES *****************************************************/
 
