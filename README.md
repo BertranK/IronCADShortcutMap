@@ -7,6 +7,7 @@ https://bertrank.github.io/IronCADShortcutMap/
 Catalog Switching keys -> Set yours, and [ Save ], and [ Rebolusion! ] to use
 
 [Left window key] : It will be remapping to Enter key (It's useful to press Enter only using the left hand in Chamfer or Blend tools...etc).
+
 [Ctrl+D] : Toggle lock Scene's Smart dimensions and some 2D sketch's Smart dimensions.   <--- It only works on the English version
 [ESC] : Escape from Drilldown Selection filter.   <--- It only works on the English version
 [Ctrl+ESC] : Click Back button in the folder of the catalog browsers.
