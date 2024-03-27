@@ -2,7 +2,7 @@ https://bertrank.github.io/IronCADShortcutMap/
 
 ![Imgur](http://BertranK.github.io/IronCADShortcutMap/Usermanual.gif)
 
-- ICS -
+- ICS -<br>
 Catalog Switching keys -> Set yours, and [ Save ], and [ Rebolusion! ] to use
 
 [Left window key] : It will be remapping to Enter key (It's useful to press Enter only using the left hand in Chamfer or Blend tools...etc).
@@ -14,7 +14,7 @@ Catalog Switching keys -> Set yours, and [ Save ], and [ Rebolusion! ] to use
 [Ctrl+F2] : open Parameters under the cursor.
 [Ctrl+F3] : open Smart paints under the cursor.
 
-- CAXA -
+- CAXA -<br>
 [Ctrl + Shift + 1] : View Properties under the cursor.
 [Ctrl + Shift + 2] : View Orientation under the cursor.
 [Ctrl + Shift + 3] : Edit Scene under the cursor.
