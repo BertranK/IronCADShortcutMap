@@ -18,6 +18,7 @@ Catalog Switching keys -> Set yours, and [ Save ], and [ Rebolusion! ] to use
 - CAXA
 
 [Ctrl + Shift + 1] : View Properties under the cursor.
+
 [Ctrl + Shift + 2] : View Orientation under the cursor.
 [Ctrl + Shift + 3] : Edit Scene under the cursor.
 
